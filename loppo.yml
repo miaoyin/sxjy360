@@ -1,0 +1,8 @@
+dir: src
+output: dist
+site: 经典书籍
+theme: oceandeep
+customization: true
+themeDir: loppo-theme
+direction: ltr
+id: sxjy360
