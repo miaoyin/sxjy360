@@ -1,7 +1,7 @@
 
 # publish push
 pub: build
-	find ./docs/* ! -name "CNAME" |xargs rm -rf
+	find ./docs/* ! -name "CNAME" ! -name "404.html" |xargs rm -rf
 	cp -r ./dist/*  ./docs/
 
 build: pre-build
