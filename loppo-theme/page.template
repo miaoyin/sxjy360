@@ -34,7 +34,7 @@
     <div class="article">
       <%= content %>
       <% if (current_path === '/') { %>
-        <h2>Table of Contents</h2>
+        <h2>目录</h2>
         <%= chapterList %>
       <% } %>
     </div>
